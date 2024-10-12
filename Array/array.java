@@ -1,4 +1,6 @@
-class array{
+package Array;
+
+public class array{
     public static void main(String[] args) {
         int arr[]={98,87,76,65,54,43,40,39,23,11};
         for(int i=0;i<10;i++){
