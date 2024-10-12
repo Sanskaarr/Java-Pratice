@@ -1,16 +1,19 @@
 public class polymorphism{
-    void First(int a){
-        System.out.println("Value of A is :" + a);
+    void first(){
+        System.out.println("Static Method with no argument");
     }
 
-    void First(String b, int a){
-        System.out.println("My College Name is :" + b);
-        System.out.println("My roll Number is :"+ a);
+    void first(int a){
+        System.out.println("College Fees is : " + a+ " For the First Semester");
     }
 
+    void first(String str){
+        System.out.println("College Name is : " + str);
+    }
     public static void main(String[] args){
         polymorphism obj = new polymorphism();
-        obj.First(12);
-        obj.First("Amity", 154);
+        obj.first();
+        obj.first("Amity College");
+        obj.first(150000);
     }
 }
