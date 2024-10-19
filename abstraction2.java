@@ -24,6 +24,7 @@ class abstraction2 implements A{
 
     public static void main(String[] args){
         abstraction2 obj = new abstraction2();
+        first();
         obj.first();
         obj.Second();
         obj.third();

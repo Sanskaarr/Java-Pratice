@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class meet{
     int c = 88;
-    void add(){
+    static void add(){
         System.out.println("Harshit is a student of AIIT");
     }
     public static void main(String[] args){
@@ -15,8 +15,14 @@ public class meet{
         int b = 77;
 
         meet tony = new meet();
+        main(10);
+        add();
         tony.add();
         System.out.println(a);
         System.out.println(tony.c);
+    }
+
+    public static void main(int a) {
+        System.out.println(a);
     }
 }

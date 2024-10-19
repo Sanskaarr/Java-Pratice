@@ -1,4 +1,4 @@
-class StringDemo{
+class stringAlgo{
     public static void main(String args[])
       {
         String strob1 = "abcdefghijklmno";
@@ -9,6 +9,7 @@ class StringDemo{
           if(strob2==strob2){
               System.out.println(strob2.compareTo(strob1));
           }
+          
       }
 
   }
