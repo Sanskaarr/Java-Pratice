@@ -42,9 +42,10 @@ class SimpleCalculator {
             }
         } catch (ArithmeticException e) {
             System.out.println("Arithmetic error: " + e.getMessage());
-        } catch (Exception e) {
-            System.out.println("An error occurred: " + e.getMessage());
         }
+        //  catch (Exception e) {
+        //     System.out.println("An error occurred: " + e.getMessage());
+        // }
 
         scanner.close();
     }

@@ -30,12 +30,12 @@ public class pattern {
         // }
 
         // Printing the Pattern in the Reverse order
-        for (int i = n-1; i>0; i--) {
-            for (int j = i; j > 0; j--) {
-                System.out.print("*");
-            }
-            System.out.println();
+        // for (int i = n-1; i>0; i--) {
+        //     for (int j = i; j > 0; j--) {
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
             
-        }
+        // }
     }
 }

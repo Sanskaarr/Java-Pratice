@@ -17,7 +17,7 @@ public class stringmatching {
         System.out.println(str.toLowerCase());
         System.out.println(str.toUpperCase());
         System.out.println(str.charAt(2));
-        String s ="hello world "
+        String s ="hello world ";
 
     }
     

@@ -14,7 +14,7 @@ class Maxvalue{
 }
 }
 
-public class Arraymax {
+public class arraymax {
     public static void main(String[] args) {
         Maxvalue max = new Maxvalue();
         max.Max();

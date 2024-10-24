@@ -1,22 +1,22 @@
-public class encapsulation {
-    public static void main(String[] args) {
-        Integernumber obj = new Integernumber();
-        obj.setName(100);
-        System.out.println(obj.getName());
-    }
-}
+// public class encapsulation {
+//     public static void main(String[] args) {
+//         Integernumber obj = new Integernumber();
+//         obj.setName(100);
+//         System.out.println(obj.getName());
+//     }
+// }
 
-class Integernumber{
-    private int number;
+// class Integernumber{
+//     private int number;
 
-public int getName(){
-    return number;
-}
+// public int getName(){
+//     return number;
+// }
 
-public void setName(int no){
-    this.number = no;
-}
- }
+// public void setName(int no){
+//     this.number = no;
+// }
+//  }
 
 
 
