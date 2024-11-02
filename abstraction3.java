@@ -14,7 +14,7 @@ class C{
     };
 }
 
-class abstraction3 extends C implements A,B{
+class abstractionprogram extends C implements A,B{
     public void Afirst(){
         System.out.println("This is the Afirst Method");
     }
@@ -32,7 +32,7 @@ class abstraction3 extends C implements A,B{
     }
 
     public static void main(String[] args){
-        abstraction3 obj = new abstraction3();
+        abstractionprogram obj = new abstractionprogram();
         obj.Afirst();
         obj.Bfirst();
         obj.Asecond();

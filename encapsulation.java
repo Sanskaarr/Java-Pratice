@@ -42,5 +42,6 @@ public class encapsulation {
         int a = sc.nextInt();
         obj.setNo(a);
         System.out.println("The Number is: "+ obj.getno());
+        sc.close();
     }
 }

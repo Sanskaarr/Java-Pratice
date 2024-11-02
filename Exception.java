@@ -1,5 +1,6 @@
 
 public class Exception {
+    @SuppressWarnings("null")
     public static void main(String[] args){
         System.out.println("Testing Out Exception Handling");
 

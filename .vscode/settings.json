@@ -1,0 +1,8 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/sanskarjain/Downloads/mysql-connector-j-9.1.0/mysql-connector-j-9.1.0.jar",
+        "/Users/sanskarjain/Downloads/mysql-connector-j-9.1.0/**/*.jar"
+    ]
+}

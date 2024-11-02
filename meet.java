@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class meet{
     int c = 88;
     static void add(){
@@ -12,12 +10,11 @@ public class meet{
         // System.out.print("The number is : "+ a);
         
         int a = 55;
-        int b = 77;
 
         meet tony = new meet();
         main(10);
         add();
-        tony.add();
+        meet.add();
         System.out.println(a);
         System.out.println(tony.c);
     }

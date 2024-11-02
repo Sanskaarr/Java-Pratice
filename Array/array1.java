@@ -50,6 +50,7 @@ public class array1 {
        }
        thirdLargest(ar2, even);
        thirdLargest(ar3, odd);
+       sc.close();
 }
     
 }
