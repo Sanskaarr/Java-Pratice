@@ -1,4 +1,4 @@
-class MyThread extends Thread {
+public class MyThread extends Thread {
     public static void main(String[] args) throws InterruptedException{
         SumUpExample.runTest();
     }
@@ -15,7 +15,12 @@ class SumUpExample {
         this.endRange = endRange;
     }
 
-    public void run(){
+        public static void runTest() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'runTest'");
+    }
+
+        void run(){
         for(long i = startRange; i <= endRange; i++){
             counter += i;
             }
@@ -52,5 +57,10 @@ class SumUpExample {
             long end = System.currentTimeMillis();
             System.out.println("The sum from " + thread.startRange + " to " + thread.endRange + " is " + thread.counter);
             System.out.println("Time taken: " + (end - start) + " milliseconds");
+        }
+
+        private void add() {
+            // TODO Auto-generated method stub
+            throw new UnsupportedOperationException("Unimplemented method 'add'");
         }
 }

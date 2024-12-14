@@ -9,7 +9,7 @@ public class createDatabase {
         String username = "root";  //MySQL username
         String password = "Sanskar@2001";  // MySQL password
         
-        String databaseName = "JavaDatabase";  // name for the new database
+        String databaseName = "NewDatabase";  // name for the new database
 
         try (Connection connection = DriverManager.getConnection(jdbcURL, username, password);
              Statement statement = connection.createStatement()) {
